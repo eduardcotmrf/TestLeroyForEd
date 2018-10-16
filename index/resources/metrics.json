@@ -1,0 +1,16 @@
+{
+  "facebookMetric" : [ {
+    "id" : "aldlñd"
+  } ],
+  "comscore" : [ {
+    "name" : "adfb",
+    "nsSite" : "xx"
+  } ],
+  "googleAnalytics" : [ {
+    "name" : "1234134",
+    "uaCode" : "dfasfa"
+  }, {
+    "name" : "abca",
+    "uaCode" : "accad"
+  } ]
+}

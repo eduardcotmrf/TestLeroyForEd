@@ -1,0 +1,31 @@
+{
+  "name":"index",
+  "title":"Example",
+  "uri":"www.leroytest.com",
+  "twitter":"marfeel",
+  "userInterface":{
+    "lang":"en",
+    "themeName":"mediaPublisher",
+    "resourcesHost":"https://bc.marfeel.com",
+    "headerLinks":[{
+      "id":"example",
+      "href":"http://www.leroytest.com?fromt=yes",
+      "label":"Example"
+    }]
+  },
+  "configuration":{
+    "whiteCollarScript":"index/src/whiteCollar/main.js"
+  },
+  "sectionDefinitions":[{
+    "name":"home",
+    "styles":"main",
+    "title":"Home",
+    "configuration":{
+      "cronRefresh":"0 0/3 * 1/1 * ? *"
+    },
+    "feedDefinitions":[{
+      "uri":"http://www.leroytest.com/",
+      "alibabaDefinition":{}
+    }]
+  }]
+}
